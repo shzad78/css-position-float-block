@@ -1,0 +1,56 @@
+body {
+  /*width: 500px;
+  margin: 0 auto;*/
+}
+
+/*div {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}*/
+
+.div1{
+    background-color: red;
+}
+
+.div2 {
+ 
+    background-color: green;
+    top: -50px;
+    left: 20%;
+  /*background: yellow;
+  top: 30px;
+  left: 30px;*/
+}
+
+.div3{
+    background-color: blue;
+    top: -100px;
+    left: 40%;
+    
+}
+.div4{
+    background-color: yellow;
+    top: -150px;
+    left: 60%;
+    
+}
+.div1, .div2, .div3, .div4{
+    /*padding: 10px;
+    border: 1px solid black;*/
+    width: 20%;
+    position: relative;
+    height: 50px;
+}
+
+.content{
+    position: relative;
+    top: -130px;
+    
+}
+
+/*span {
+  background: red;
+  border: 1px solid black;
+}*/
