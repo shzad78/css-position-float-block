@@ -42,30 +42,35 @@ p{
     width: 20%;    
     height: 50px;
     padding: 20px;
-    margin: 10px;
-
+    
     
 }
 .clear{
     clear: both;
 }
 
-.content{
-   
-    background-color: cyan;
-    height: 1000px;
-    font-size: 1.5em;
-        
-}
+
 .sidebar{
     float: left;
     width: 20%;
     background-color: azure;
-    height: 600px;
+    height: calc(100vh - 100px);
 }
 .main{
     float: left;
     width: 80%;
     background-color: cadetblue;
-    height: 600px;
+    height: calc(100vh - 100px);
 }
+
+.footer{
+    float: left;
+    margin-left: 20%;
+    
+    background-color: forestgreen;
+    height: 50px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
+
