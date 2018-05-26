@@ -9,12 +9,24 @@
 </head>
 <body>
    <form action="">
-      First Name: <input type="text" name= "firstname"><br>
-      Gender: <br><input type="radio" name="gender" value="male">Male<br>
+     <label for="firstname">First Name: </label> <input type="text" name= "firstname" id="firstname" placeholder="First Name"><br>
+     <label for="">Gender:</label>  <br><input type="radio" name="gender" value="male" id="gender">Male<br>
                 <input type="radio" name="gender" value="female">Female<br>
                 <input type="radio" name="gender" value="other">male<br><br>
-                Adress: <textarea name="adress"  cols="30" rows="10" placeholder="write your adress here"></textarea>
-
+        <label for="adress">Adress: </label><br>
+        <textarea name="adress"  cols="30" rows="10" placeholder="write your adress here" id="adress"></textarea>
+        <br><br>Subjects</label>
+        <input type="checkbox" name="Maths" value="maths">Maths
+        <input type="checkbox" name="physics" value="physics">Physics
+        <br><br>
+        <label for="car">Selcet Car</label>
+       <select name="classnames" id="car">
+        <option>select your car</option>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+       </select>
    </form> 
 </body>
 </html>
