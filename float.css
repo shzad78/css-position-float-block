@@ -59,8 +59,12 @@ p{
 .main{
     float: left;
     width: 80%;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+    
     height: calc(100vh - 100px);
+    background-size: 100% 100%;
 }
 
 .footer{
@@ -74,3 +78,16 @@ p{
     text-align: center;
 }
 
+.footer:hover{
+background-color: blueviolet
+}
+
+.footer:active{
+    background-color: rgb(17, 4, 29)
+    }
+
+p::after{
+    content: "$";
+    color: brown;
+    border-left: 5px solid red;
+}
